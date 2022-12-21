@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="shortcut icon" href="images/prayer.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Bellefair&family=Cairo:wght@300;400&family=DM+Sans:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;600;700&family=Open+Sans:wght@400;700&family=Roboto:ital,wght@0,300;1,100;1,300&family=Space+Mono:ital,wght@0,400;0,700;1,700&display=swap"
+      rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Bellefair&family=Cairo:wght@300;400&family=DM+Sans:wght@400;700&family=IBM+Plex+Sans+Arabic:wght@300;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;600;700&family=Open+Sans:wght@400;700&family=Roboto:ital,wght@0,300;1,100;1,300&family=Space+Mono:ital,wght@0,400;0,700;1,700&display=swap"
+      rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Prayer Times</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container mt-4">
+        <a class="text-white navbar-brand fs-4" href="#"><i class="fa-solid fa-mosque text-white"></i> Prayer</a>
+        <button
+          class="navbar-toggler btn-controle"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="text-white fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav gap-3 fs-4">
+            <li class="quate text-center my-4"><span>بسم الله الرحمن الرحيم </span><i class="ms-2 text-warning fa-regular fa-bookmark"></i></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-contant mt-5">
+      <div class="container">
+        <div class="row flex-wrap-reverse">
+          <div class="col-lg-6 col-md-12 d-flex flex-column justify-content-center mt-5 mt-lg-0 mt-md-0">
+            <input class="city mb-2 fs-2" type="text" placeholder="Enter country name & press Enter" />
+            <span class="error fs-5 text-white bg-danger fw-bold p-2 rounded-2"
+              ><i class="fa-solid fa-circle-exclamation fa-bounce me-2"></i>Sorry
+              <span class="name border-bottom-4 border-bottom bg-dark py-1 px-2 rounded-2 border-white fw-bold text-capitalize">nameofit</span> is invalid you can write a name of a
+              country or <span class="fw-bold text-white border-bottom-4 border-bottom">city/country</span>
+              <span class="text-white border-bottom-4 border-bottom fw-bold">`New york/United States`</span> <span class="fw-bold time fs-4">10</span></span
+            >
+            <div class="box flex-wrap-reverse mt-3">
+              <div class="timings d-flex align-items-center justify-content-between flex-wrap">
+                <h2 class="fw-bold pro-color text-uppercase"><span class="coutry fs-4">---------</span></h2>
+                <h2 class="next-prey fw-bold pro-color">TIME <span class="time-still text-white-50">12:34</span></h2>
+              </div>
+
+              <span class="text-white fw-bold fs-6 mb-4 d-block mb-4"> <span class="text-uppercase fw-bold text-white"></span><span class="date ms-2"></span></span>
+              <div class="row gap-3 d-flex flex-wrap px-2 justify-content-center text-dark">
+                <div class="fajr col pryer-time d-flex flex-column align-items-start justify-content-end p-4">
+                  <span class="fw-bold d-block fs-2 text-uppercase">Fajr</span>
+                  <span class="fs-4 fw-bold second-color">6:44 AM</span>
+                </div>
+                <div class="sunrise col pryer-time d-flex flex-column align-items-start justify-content-end p-4">
+                  <span class="fw-bold d-block fs-2 text-uppercase">Sunrise</span>
+                  <span class="fs-4 fw-bold second-color">6:44 AM</span>
+                </div>
+                <div class="dhuhr col pryer-time d-flex flex-column align-items-start justify-content-end p-4">
+                  <span class="fw-bold d-block fs-2 text-uppercase">Dhuhr</span>
+                  <span class="fs-4 fw-bold second-color">6:44 AM</span>
+                </div>
+                <div class="asr col pryer-time d-flex flex-column align-items-start justify-content-end p-4">
+                  <span class="fw-bold d-block fs-2 text-uppercase">Asr</span>
+                  <span class="fs-4 fw-bold second-color">6:44 AM</span>
+                </div>
+                <div class="maghrib col pryer-time d-flex flex-column align-items-start justify-content-end p-4">
+                  <span class="fw-bold d-block fs-2 text-uppercase">Maghrib</span>
+                  <span class="fs-4 fw-bold second-color">6:44 AM</span>
+                </div>
+                <div class="isha col pryer-time d-flex flex-column align-items-start justify-content-end p-4">
+                  <span class="fw-bold d-block fs-2 text-uppercase">Isha</span>
+                  <span class="fs-4 fw-bold second-color">6:44 AM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="for-image col-lg-6 col-md-12 mb-5 mb-lg-0 mb-md-5">
+            <div class="image justify-content-center justify-content-lg-end d-flex">
+              <img class="img-fluid w-75" src="images/hero.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contant"></div>
+  </body>
+</html>
+<script src="js/master.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
